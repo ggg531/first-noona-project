@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOGLE</title>
+    <link href="css/google.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/a84f8617c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <span class="navbar1"> <!-- span: div와 같은 의미로 묶지만, 다음 줄로 넘기지 않음 / nav와의 차이점은? -->
+            <a href="#" class="nav1-item">Google 정보</a>
+            <a href="#" class="nav1-item">스토어</a>
+        </span>
+        <span class="navbar2">
+            <a href="#" class="nav2-item">Gmail</a>
+            <a href="#" class="nav2-item">Images</a>
+            <i class="fa-solid fa-bars"></i> <!-- CDN: content delivery network -->
+            <!-- 로그인 아이콘 -->
+        </span>
+    </header>
+
+    <main>
+        <img src="data:image/png;base64,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"
+             width="272"/>
+        <div class="input-area">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input class="input-box" type="text" placeholder="Google 검색 또는 URL 입력"/>
+            <i class="fa-solid fa-microphone mic-icon"></i>
+            <i class="fa-solid fa-camera cam-icon"></i>
+        </div>
+        <div class="button-area">
+            <button class="button-style">Google 검색</button>
+            <button class="button-style">I'm Feeling Lucky</button>
+        </div>
+        <div class="language-area">
+            Google offered in: 
+            <a href="#">한국어</a>
+            <a href="#">中文</a>
+            <a href="#">日本語</a>
+        </div>
+    </main>
+
+    <footer class="footer-area">
+        <div class="footer1">
+            대한민국
+        </div>
+        <span class="footer2">
+            <a href="#" class="footer2-item">광고</a>
+            <a href="#" class="footer2-item">비즈니스</a>
+            <a href="#" class="footer2-item">검색의 원리</a>
+        </span>
+        <span class="footer3">
+            <a href="#" class="footer3-item">개인정보처리방침</a>
+            <a href="#" class="footer3-item">약관</a>
+            <a href="#" class="footer3-item">설정</a>
+        </span>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.mother {
+    border: 1px solid red;
+    display: flex; /* default: 가로 정렬 */
+    /* 가로 정렬: 가로 */
+    /* justify-content: flex-end; /* justify-content: display로 얻은 권한 사용 */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; /* 스크린 사이즈 줄여도 유동적O */
+    /* justify-content: space-around; /* 적당히 between */
+    /* 가로 정렬: 세로 */
+    /* childeren: mother 안에서 위치 => mother 크기 변동을 통해 세로 정렬 가능 */
+    height: 100vh;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: center; /* space-between, space-around 존재X */
+    /* 세로 정렬 */
+    flex-direction: column;
+    /* justify-content: flex-end; /* flex-direction 조절로 justify로도 세로 정렬 가능O */
+    justify-content: space-around;
+}
+.children {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}

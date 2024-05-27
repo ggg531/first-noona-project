@@ -1,0 +1,109 @@
+body { /* element.style을 통해 display 확인 */
+    display: contents;
+}
+a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+a:hover { /* mouse over */
+    text-decoration: underline;
+}
+main {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.navbar1 {
+    float: left;
+    /* border: 1px solid red; */
+    margin: 20px;
+}
+.nav1-item {
+    color: black;
+}
+.navbar2 {
+    float: right;
+    /* border: 1px solid red; */
+    margin: 20px;
+}
+.nav2-item {
+    color: black;
+}
+
+.input-area {
+    margin-top: 20px;
+}
+.input-box {
+    width: 582px;
+    height: 46px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding-left: 4%;
+    padding-right: 5%
+}
+.search-icon {
+    position: relative;
+    left: 3%;
+    color: #9aa0a6;
+}
+.mic-icon {
+    position: relative;
+    right: 5%;
+    color: #9aa0a6;
+}
+.cam-icon {
+    position: relative;
+    right: 4%;
+    color: #9aa0a6;
+}
+.button-area {
+    padding-top: 18px;
+}
+.button-style {
+    height: 36px;
+    background-color: #f8f9fa; 
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
+.button-style:hover { /* Force state -> :hover */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.language-area {
+    padding-top: 18px;
+}
+.language {
+    padding: 0 3px;
+}
+
+.footer-area {
+    position: absolute; /* 절대적 => background하면 전제X => 100% 설정*/ 
+    bottom: 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer1 {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+.footer2 {
+    float: left;
+    padding: 15px 30px;
+}
+.footer2-item {
+    color: black;
+}
+.footer3 {
+    float: right;
+    padding: 15px 30px;
+}
+.footer3-item {
+    color: black;
+}

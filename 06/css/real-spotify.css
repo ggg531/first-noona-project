@@ -1,0 +1,16 @@
+/* 순서대로 코드 작성 */
+body { /* body의 고유한 값: display: block; margin: 8px; */
+    margin: 0px; /* 오버라디으 해서 8px 없애기 */
+}
+header {
+    height: 80px;
+    background-color: black;
+}
+main {
+    height: 800px;
+    background-color: rgb(41, 65, 171);
+}
+footer {
+    height: 530px;
+    background-color: black;
+}

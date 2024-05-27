@@ -1,0 +1,47 @@
+.skyblue {
+    color: skyblue;
+    text-align: center; /* 정렬 */
+}
+
+.border-blue {
+    border: 4px solid blue; /* 테두리 두께, 스타일, 색상 */
+    height: 400px;
+    width: 400px;
+}
+
+.margin-space { /* margin: 외부 공간 */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.padding-space { /* padding: 내부 공간 */
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+/* 
+ 복합 선택자
+
+ 일치 선택자:두가지 조건을 동시에 만족하는 요소 선택 
+div.new-style{
+
+      /*div태그에 new-style클래스
+
+}
+
+자식선택자
+div>.new-style{
+
+  /* div의 자식요소중 class="new-style"선택
+
+}
+
+후손 선택자
+div .new-style{
+
+/* div 후손요소들 중에서 class="new-style"
+
+}
+*/

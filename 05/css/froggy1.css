@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.div1 {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+.sub-main {
+    display: flex; 
+}
+.div2 {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+.div3 {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
